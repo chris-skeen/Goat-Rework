@@ -1,0 +1,287 @@
+/* colors: 
+pink - rgb(250,124,142)
+blue - rgb(115, 115, 214)
+ */
+
+
+body {
+  background: rgb(0, 152, 238);
+  background-image: linear-gradient(
+    100deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30pt
+}
+
+.mom-name-cont {
+  display: flex; 
+  justify-content: center;
+}
+
+.mom-name {
+  color:rgb(250, 124, 142)
+}
+
+.mom-image-cont {
+  display: flex; 
+  justify-content: center;
+}
+
+.mom-image {
+  border: 3px inset rgb(250, 124, 142);
+  border-radius: 50%;
+}
+
+.my-mother-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.my-mother {
+  color:rgb(250, 124, 142)
+}
+
+.mom-summary-header-contain {
+  display: flex;
+  justify-content: center;
+
+}
+
+.mom-summary-contain {
+  display: flex;
+  justify-content: center;
+  border: 3px inset rgb(250, 124, 142);
+  background-image: linear-gradient(
+    300deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.mom-summary-header {
+  color:rgb(250, 124, 142)
+}
+
+.mom-summary {
+  color:rgb(115, 115, 214)
+}
+
+
+.mom-table-container {
+  display: flex; 
+  justify-content: center;
+}
+
+.mom-table {
+  width: 50%;
+  border: 3px inset rgb(115, 115, 214);
+  background-image: linear-gradient(
+    300deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  
+}
+
+.mom-table-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(115, 115, 214);
+}
+
+.mom-table-cells {
+  border:2px inset rgb(115, 115, 214)
+}
+
+.mom-vh-container {
+  display: flex;
+  justify-content: center;
+  color:rgb(250, 124, 142)
+}
+
+.mom-v-container {
+  display: flex;
+  justify-content: center;
+}
+
+.my-father {
+  color:rgb(115, 115, 214);
+  display: flex;
+  justify-content: center;
+}
+
+.dad-pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dad-pic {
+  border: 3px inset rgb(0, 152, 238);
+  border-radius: 50%;
+}
+
+.dad-name {
+  display: flex;
+  justify-content: center;
+  color:rgb(115, 115, 214)
+}
+
+.dad-summary-header-cont {
+  color:rgb(115, 115, 214);
+  display: flex;
+  justify-content: center;
+}
+
+.dad-summary-cont {
+  display: flex;
+  justify-content: center;
+  border: 3px inset rgb(250, 124, 142);
+  background-image: linear-gradient(
+    300deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.dad-summary {
+  color: rgb(250, 124, 142)
+}
+
+.dad-table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dad-table {
+  width: 50%;
+  border: 3px inset rgb(115, 115, 214);
+  background-image: linear-gradient(
+    300deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  
+}
+
+.dad-table-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color:rgb(250, 124, 142);
+}
+
+.dad-table-cells {
+  border:2px inset rgb(250, 124, 142)
+}
+
+.dad-vh-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dad-vh {
+  color:rgb(115, 115, 214)
+}
+
+.dad-v-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-container {
+  display:flex; 
+  justify-content: center;
+  color: white;
+}
+
+.con-names {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.mom-con-name-select {
+  color:rgb(250, 124, 142)
+}
+
+.dad-con-name-select {
+  color:rgb(115, 115, 214)
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emails {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mom-num {
+  color:rgb(250, 124, 142)
+}
+
+.dad-num {
+  color:rgb(115, 115, 214)
+}
+
+.dad-email {
+  color:rgb(115, 115, 214);
+  
+}
+
+.mom-email {
+  color:rgb(250, 124, 142);
+}
+
+.links-contain {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links-header {
+  color:rgb(115, 115, 214)
+}
+
+a:link {
+  color:rgb(240, 118, 118)
+
+}
+
+a:hover {
+  color:rgb(115, 115, 214)
+}
+
+a:visited {
+  color: white
+}
+
+.links-header-contain {
+  display: flex;
+  justify-content: center;
+}
