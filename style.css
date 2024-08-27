@@ -26,7 +26,6 @@ body {
 .mom-name-cont {
   display: flex; 
   justify-content: center;
-  width: 100%;
 }
 
 .mom-name {
@@ -36,7 +35,6 @@ body {
 .mom-image-cont {
   display: flex; 
   justify-content: center;
-  
 }
 
 .mom-image {
@@ -47,7 +45,6 @@ body {
 .my-mother-cont {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .my-mother {
@@ -57,7 +54,6 @@ body {
 .mom-summary-header-contain {
   display: flex;
   justify-content: center;
-  width: 100%;
 
 }
 
@@ -73,13 +69,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
 
 }
 
 .mom-summary-header {
-  color:rgb(250, 124, 142);
-  
+  color:rgb(250, 124, 142)
 }
 
 .mom-summary {
@@ -90,7 +84,6 @@ body {
 .mom-table-container {
   display: flex; 
   justify-content: center;
-  width: 100%;
 }
 
 .mom-table {
@@ -115,21 +108,18 @@ body {
 }
 
 .mom-table-cells {
-  border:2px inset rgb(115, 115, 214);
-  width: 100%;
+  border:2px inset rgb(115, 115, 214)
 }
 
 .mom-vh-container {
   display: flex;
   justify-content: center;
-  color:rgb(250, 124, 142);
-  width: 100%;
+  color:rgb(250, 124, 142)
 }
 
 .mom-v-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .my-father {
@@ -141,7 +131,6 @@ body {
 .dad-pic-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .dad-pic {
@@ -159,7 +148,6 @@ body {
   color:rgb(115, 115, 214);
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .dad-summary-cont {
@@ -174,7 +162,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
 
 }
 
@@ -185,7 +172,6 @@ body {
 .dad-table-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .dad-table {
@@ -210,14 +196,12 @@ body {
 }
 
 .dad-table-cells {
-  border:2px inset rgb(250, 124, 142);
-  width: 100%;
+  border:2px inset rgb(250, 124, 142)
 }
 
 .dad-vh-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .dad-vh {
@@ -227,14 +211,12 @@ body {
 .dad-v-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .contacts-container {
   display:flex; 
   justify-content: center;
   color: white;
-  width: 100%;
 }
 
 .con-names {
@@ -280,7 +262,6 @@ body {
 .links-contain {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
 }
 
 .links-header {
@@ -303,5 +284,17 @@ a:visited {
 .links-header-contain {
   display: flex;
   justify-content: center;
-  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dad-v-container{
+    display: block;
+  }
+  iframe {
+    width: 100%;
+  }
+
+  .mom-v-container {
+    display:block;
+  }
 }
