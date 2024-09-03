@@ -77,7 +77,7 @@ body {
 }
 
 .mom-summary {
-  color:rgb(115, 115, 214)
+  color: white;
 }
 
 
@@ -166,7 +166,7 @@ body {
 }
 
 .dad-summary {
-  color: rgb(250, 124, 142)
+  color: white;
 }
 
 .dad-table-container {
@@ -221,42 +221,42 @@ body {
 
 .con-names {
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .mom-con-name-select {
-  color:rgb(250, 124, 142)
+  color:white;
 }
 
 .dad-con-name-select {
-  color:rgb(115, 115, 214)
+  color:white;
 }
 
 .numbers {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .emails {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .mom-num {
-  color:rgb(250, 124, 142)
+  color:white;
 }
 
 .dad-num {
-  color:rgb(115, 115, 214)
+  color:white;
 }
 
 .dad-email {
-  color:rgb(115, 115, 214);
+  color:white;
   
 }
 
 .mom-email {
-  color:rgb(250, 124, 142);
+  color:white;
 }
 
 .links-contain {
