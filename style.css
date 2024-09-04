@@ -226,10 +226,14 @@ blue - rgb(115, 115, 214)
 
 .mom-con-name-select {
   color:white;
+  margin: 0% 0% -2% 0%;
+  text-align: center;
 }
 
 .dad-con-name-select {
   color:white;
+  text-align: center;
+  margin: 0% 0% -2% 0%;
 }
 
 .numbers {
@@ -288,11 +292,33 @@ blue - rgb(115, 115, 214)
   justify-content: center;
 }
 
+.contacts-table-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-table {
+  width: 30%;
+}
+
+.emails {
+  color : white;
+  text-align: center;
+}
+
+.contacts-header {
+  color: white;
+}
+
+.nums {
+  color: white;
+  text-align: center;
+}
 @media only screen and (max-width: 768px) {
   .dad-v-container{
     display: block;
   }
-  iframe {
+  .vids {
     width: 100%;
   }
 
