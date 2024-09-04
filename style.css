@@ -235,11 +235,13 @@ body {
 .numbers {
   display: flex;
   justify-content: space-between;
+  margin: -2.7% 0% 0% 0%;
 }
 
 .emails {
   display: flex;
   justify-content: space-between;
+  margin: -2.7% 0% 0% 0%
 }
 
 .mom-num {
@@ -251,7 +253,7 @@ body {
 }
 
 .dad-email {
-  color:white;
+  color: white;
   
 }
 
